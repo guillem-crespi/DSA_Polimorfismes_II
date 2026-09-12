@@ -1,9 +1,8 @@
 public abstract class Shape implements Comparable<Shape> {
-
-    // El mètode abstracte de la capseta: + area(): double
+    // La classe Shape, ens permet comparar figures distintes, ja que
+    // el programa distingeix entre classes, i si les agrupam dins un mateix paraigües
     public abstract double area();
 
-    // Obligatori en implementar la interfície Comparable (de la capseta blava)
     // Permet ordenar les figures comparant la seva àrea:
     @Override
     public int compareTo(Shape o) {
