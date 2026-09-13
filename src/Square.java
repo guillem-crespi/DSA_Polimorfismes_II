@@ -6,4 +6,8 @@ public class Square extends Rectangle
     {
         super(l, l);
     }
+    @Override
+    public String toString() {
+        return "Square [area=" + area() + "]";
+    }
 }
